@@ -1,0 +1,9 @@
+﻿Sub Test1()
+  'Opens the specified URL in a running instance of the specified browser.
+  Call Browsers.Item(btChrome).Navigate("https://bearstore-testsite.smartbear.com/")
+  Call Aliases.browser.BrowserWindow.Position(62, 32, 937, 1287)
+  'Clicks the 'textnodeLogIn' control.
+  Call Aliases.browser.pageShop.header.linkLogIn.textnodeLogIn.Click
+  'Checks whether the 'contentText' property of the Aliases.browser.pageLogin.header.linkLogIn.textnodeLogIn object equals 'Log in'.
+  Call aqObject.CheckProperty(Aliases.browser.pageLogin.header.linkLogIn.textnodeLogIn, "contentText", cmpEqual, "Log in")
+End Sub

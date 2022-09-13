@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{B9D9273E-7266-43E0-BF02-97F168593604}" version="15.0">
+	<TestData Description="" Key="{8406E9D1-3230-4205-A9E6-A5430F98B9DE}" Type="{79147B28-EE20-4294-B773-1D3787FBF37B}">
+		<Data>
+			<Extenders>
+				<NodeBitmaps />
+			</Extenders>
+		</Data>
+		<Children>
+			<Operation Type="{D95A0934-BE78-45D6-B254-2098596D2A11}">
+				<Data Description="Opens the specified URL in a running instance of the specified browser." BrowserName="chrome">
+					<Parameters LangId="{897793E3-73F3-4895-A956-3D41D3A24A45}">
+						<Parameter Name="URL" DefVarType="8" VarType="8" ValueType="6" ValueValue="https://bearstore-testsite.smartbear.com/" />
+						<Parameter Name="WaitTime" DefVarType="3" DefValueType="1" DefValueValue="-1" VarType="3" ValueType="1" ValueValue="-1" />
+					</Parameters>
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Action="Position" InvokeKind="-1" Initialized="True">
+					<Parameters LangId="{897793E3-73F3-4895-A956-3D41D3A24A45}">
+						<Parameter Name="Param1" DefVarType="0" VarType="3" ValueType="1" ValueValue="62" />
+						<Parameter Name="Param2" DefVarType="0" VarType="3" ValueType="1" ValueValue="32" />
+						<Parameter Name="Param3" DefVarType="0" VarType="3" ValueType="1" ValueValue="937" />
+						<Parameter Name="Param4" DefVarType="0" VarType="3" ValueType="1" ValueValue="1287" />
+					</Parameters>
+					<ObjectSyntax LangId="{897793E3-73F3-4895-A956-3D41D3A24A45}" Code="Call Aliases.browser.BrowserWindow" />
+				</Data>
+			</Operation>
+			<Operation Type="{575D0372-CCEB-4D0F-AFE8-D2004F108913}">
+				<Data Description="Clicks the &apos;%n&apos; control." Action="Click" InvokeKind="-1" Initialized="True">
+					<ObjectSyntax LangId="{897793E3-73F3-4895-A956-3D41D3A24A45}" Code="Call Aliases.browser.pageShop.header.linkLogIn.textnodeLogIn" />
+				</Data>
+			</Operation>
+			<Operation Type="{2F0A05A2-4ECD-47CE-A12B-9843A308F2DC}">
+				<Data Description="Checks whether the %p2 property of the %p1 object %p3 %p4.">
+					<Parameters LangId="{897793E3-73F3-4895-A956-3D41D3A24A45}">
+						<Parameter Name="Object" DefVarType="12" ParamType="{FC0DF733-E97F-46DD-8307-EA4DFF891298}" Expression="Aliases.browser.pageLogin.header.linkLogIn.textnodeLogIn" />
+						<Parameter Name="Property" DefVarType="8" VarType="8" ValueType="6" ValueValue="contentText" />
+						<Parameter Name="Condition" DefVarType="3" VarType="3" ValueType="1" ValueValue="0" />
+						<Parameter Name="Value" DefVarType="12" VarType="8" ValueType="6" ValueValue="Log in" />
+						<Parameter Name="CaseSensitive" DefVarType="11" DefValueType="7" DefValueValue="True" VarType="11" ValueType="7" ValueValue="True" />
+					</Parameters>
+				</Data>
+			</Operation>
+		</Children>
+	</TestData>
+	<Parameters Key="{96C23703-FF1F-478B-A208-8A482208CFC1}" />
+</Root>

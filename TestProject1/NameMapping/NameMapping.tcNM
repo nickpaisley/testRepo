@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root Signature="{5DCBAC3B-D39C-497C-9BE8-744CBADD37AA}" NameMappingVersion="7" SaveImages="0">
+	<Storages Current="0">
+		<Child Name="Default Configuration" />
+	</Storages>
+	<Nodes Name="NameMapping" Key="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Children>
+			<Child Name="Sys" Key="{CADCC64A-FF48-45E9-BFD2-2016C65939D9}">
+				<Properties>
+					<Property Name="Name">
+						<Value Value="Sys" />
+					</Property>
+				</Properties>
+				<Children>
+					<Child Name="browser" Key="{6088664E-C8DF-489A-9542-33B18362CF5A}">
+						<Properties>
+							<Property Name="ObjectType">
+								<Value Value="Browser" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="BrowserWindow" Key="{7DFED83C-BFA4-4BF7-AD9E-366ACAA9A47E}">
+								<Image FileName="-520588636" Left="0" Top="0" Right="937" Bottom="1287" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="BrowserWindow" />
+									</Property>
+									<Property Name="ObjectIdentifier">
+										<Value Value="0" Type="0" />
+									</Property>
+								</Properties>
+							</Child>
+							<Child Name="pageShop" Key="{5FC4E5E1-1352-468F-BBCD-0C33D69BC954}">
+								<Image FileName="-520588636" Left="8" Top="112" Right="929" Bottom="1279" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://bearstore-testsite.smartbear.com/" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="header" Key="{6B03CC8C-0F87-41DB-B494-2EEF6F314789}">
+										<Image FileName="-520588636" Left="8" Top="112" Right="912" Bottom="260" />
+										<Selectors>
+											<Selector>
+												<Value Value="#header" />
+											</Selector>
+											<Selector>
+												<Value Value="//header[contains(., &apos;Menu&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//header" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkLogIn" Key="{5D0D9031-5224-4A7F-84F8-4B17D27DEE06}">
+										<Image FileName="-520588636" Left="289" Top="189" Right="349" Bottom="244" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[@id=&apos;shopbar-user&apos;]/a[contains(@class, &apos;shopbar-button&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;shopbar-user&apos;]/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeLogIn" Key="{AFC325E8-F70F-42E4-9EEC-A6EC98017B28}">
+										<Image FileName="-520588636" Left="298" Top="221" Right="340" Bottom="237" />
+										<TypeInfo Item0="{20AE814B-266B-4964-9AB6-B1364395DC9F}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[@id=&apos;shopbar-user&apos;]/a/span[contains(@class, &apos;shopbar-button-label-sm&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageLogin" Key="{F9BAAC36-D69D-4130-8962-D0CC6FEFCBEF}">
+								<Image FileName="-1465385118" Left="8" Top="112" Right="929" Bottom="1279" />
+								<TypeInfo Item0="{66E2B5A0-3808-45A6-88D0-0F030332ACE7}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://bearstore-testsite.smartbear.com/login*" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="header" Key="{13CF6AB0-E523-4DCA-A6E6-AE272B554FE0}">
+										<Image FileName="-1465385118" Left="8" Top="112" Right="929" Bottom="260" />
+										<TypeInfo Item0="{720CDAB6-E1EB-4F44-B68C-3C058798D641}" />
+										<Selectors>
+											<Selector>
+												<Value Value="#header" />
+											</Selector>
+											<Selector>
+												<Value Value="//header[contains(., &apos;Menu&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//header" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="linkLogIn" Key="{797B82F3-8009-433B-B40A-8592F4E0C1D5}">
+										<Image FileName="-1465385118" Left="298" Top="189" Right="358" Bottom="244" />
+										<TypeInfo Item0="{83C56F0F-F3B6-42DF-9B14-5D3B76556893}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[@id=&apos;shopbar-user&apos;]/a[contains(@class, &apos;shopbar-button&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;shopbar-user&apos;]/a" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textnodeLogIn" Key="{14C60848-EA17-49A3-AF94-1407FF5864DA}">
+										<Image FileName="-1465385118" Left="307" Top="221" Right="349" Bottom="237" />
+										<TypeInfo Item0="{720CDAB6-E1EB-4F44-B68C-3C058798D641}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//div[@id=&apos;shopbar-user&apos;]/a/span[contains(@class, &apos;shopbar-button-label-sm&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
+				</Children>
+			</Child>
+		</Children>
+	</Nodes>
+	<LogicalNodes Name="Aliases" Owner="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Child Name="browser" Owner="{6088664E-C8DF-489A-9542-33B18362CF5A}">
+			<Child Name="BrowserWindow" Owner="{7DFED83C-BFA4-4BF7-AD9E-366ACAA9A47E}" />
+			<Child Name="pageShop" Owner="{5FC4E5E1-1352-468F-BBCD-0C33D69BC954}">
+				<Child Name="header" Owner="{6B03CC8C-0F87-41DB-B494-2EEF6F314789}">
+					<Child Name="linkLogIn" Owner="{5D0D9031-5224-4A7F-84F8-4B17D27DEE06}">
+						<Child Name="textnodeLogIn" Owner="{AFC325E8-F70F-42E4-9EEC-A6EC98017B28}" />
+					</Child>
+				</Child>
+			</Child>
+			<Child Name="pageLogin" Owner="{F9BAAC36-D69D-4130-8962-D0CC6FEFCBEF}">
+				<Child Name="header" Owner="{13CF6AB0-E523-4DCA-A6E6-AE272B554FE0}">
+					<Child Name="linkLogIn" Owner="{797B82F3-8009-433B-B40A-8592F4E0C1D5}">
+						<Child Name="textnodeLogIn" Owner="{14C60848-EA17-49A3-AF94-1407FF5864DA}" />
+					</Child>
+				</Child>
+			</Child>
+		</Child>
+	</LogicalNodes>
+</Root>
